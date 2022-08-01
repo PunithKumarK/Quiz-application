@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\layout_activity_developers.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\layout\\activity_developers.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.my_quiz.app-merged_res-25:/layout_activity_2.xml.flat",
+        "source": "com.example.my_quiz.app-main-27:/layout/activity_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\layout_activity_2.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\layout\\activity_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-pngs-20:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.my_quiz.app-merged_res-25:/layout_activity_4.xml.flat",
+        "source": "com.example.my_quiz.app-main-27:/layout/activity_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\drawable-v24_sports.jpg.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\drawable-v24\\sports.jpg"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\layout_activity_3.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\layout\\activity_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\layout_activity_4.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\layout\\activity_4.xml"
+    },
+    {
+        "merged": "com.example.my_quiz.app-merged_res-25:/layout_activity_3.xml.flat",
+        "source": "com.example.my_quiz.app-main-27:/layout/activity_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-merged_res-25:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.example.my_quiz.app-main-27:\\mipmap-hdpi\\ic_launcher_round.webp"
+    }
+]
