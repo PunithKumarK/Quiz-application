@@ -1,1 +1,1 @@
-
+This is an offline quiz application where there is 3 categories (TECHNOLOGY , SPORTS , SPACE) .Each categories have 5 questions.
