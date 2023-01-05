@@ -1,64 +1,42 @@
-def aStarAlgo(start_node, stop_node):
-    open_set = set(start_node) 
-    closed_set = set()
-    g = {} 
-    parents = {}
-    g[start_node] = 0
-    parents[start_node] = start_node 
-    while len(open_set) > 0 :
-        n = None
-        for v in open_set:
-            if n == None or g[v] + heuristic(v) < g[n] + heuristic(n):
-                n = v 
-        if n == stop_node or Graph_nodes[n] == None:
-            pass
-        else:
-            for (m, weight) in get_neighbors(n):
-                if m not in open_set and m not in closed_set:
-                    open_set.add(m)      
-                    parents[m] = n       
-                    g[m] = g[n] + weight 
-                else:
-                    if g[m] > g[n] + weight:
-                        g[m] = g[n] + weight
-                        parents[m] = n
-                        if m in closed_set:
-                            closed_set.remove(m)
-                            open_set.add(m)
-        if n == None:
-            print('Path does not exist!')
-            return None
-        if n == stop_node:
-            path = []
-            while parents[n] != n:
-                path.append(n)
-                n = parents[n]
-            path.append(start_node)
-            path.reverse()
-            print('Path found: {}'.format(path))
-            return path
-        open_set.remove(n)
-        closed_set.add(n)
-    print('Path does not exist!')
-    return None
+import numpy as np 
+import pandas as pd
+data = pd.read_csv("ws.csv",header=None)
+concepts = np.array(data.iloc[:,0:-1])
+print("\nInstances are:\n",concepts)
+target = np.array(data.iloc[:,-1])
+print("\nTarget Values are: ",target)
 
-def get_neighbors(v):
-    if v in Graph_nodes:
-        return Graph_nodes[v]
-    else:
-        return None
+def learn(concepts,target): 
+    specific_h = concepts[0].copy()
+    print("\nInitialization of specific_h and genearal_h")
+    print("\nSpecific Boundary: ", specific_h)
+    general_h = [["?" for i in range(len(specific_h))] for i in range(len(specific_h))]
+    print("\nGeneric Boundary: ",general_h)  
 
-def heuristic(n):
-    H_dist = {
-        'S': 5,
-        'A': 4,
-        'B': 5,
-        'E': 0,
-    }
-    return H_dist[n]
-Graph_nodes = {
-    'S': [('A', 1), ('B', 2)],
-    'A': [('E', 13),],
-    'B': [('E', 5)] 
-}
-aStarAlgo('S', 'E')
+    for i,h  in enumerate(concepts):
+        print("\nInstance", i+1 , "is ", h)
+        if target[i] == "Yes":
+            print("Instance is Positive ")
+            for x in range(len(specific_h)): 
+                if h[x]!= specific_h[x]:                    
+                    specific_h[x] ='?'                     
+                    general_h[x][x] ='?'
+                   
+        if target[i] == "No":            
+            print("Instance is Negative ")
+            for x in range(len(specific_h)): 
+                if h[x]!= specific_h[x]:                    
+                    general_h[x][x] = specific_h[x]                
+                else:                    
+                    general_h[x][x] = '?'        
+        
+        print("Specific Boundary after ", i+1, "Instance is ", specific_h)         
+        print("Generic Boundary after ", i+1, "Instance is ", general_h)
+        print("\n")
+    indices = [ i for i, val in enumerate(general_h) if val == ['?', '?', '?', '?', '?', '?']]   
+    for i in indices:   
+        general_h.remove(['?', '?', '?', '?', '?', '?']) 
+    return specific_h, general_h 
+s_final, g_final = learn(concepts,target)
+print("Final Specific_h: ", s_final, sep="\n")
+print("Final General_h: ", g_final, sep="\n")
